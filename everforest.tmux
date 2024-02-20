@@ -295,7 +295,7 @@ load_modules() {
 
 main() {
   local theme
-  theme="$(get_tmux_option "@everforest_flavour" "mocha")"
+  theme="$(get_tmux_option "@everforest_theme" "mocha")"
 
   # Aggregate all commands in one array
   local tmux_commands=()
